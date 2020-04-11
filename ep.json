@@ -1,0 +1,17 @@
+{
+  "parts":[
+    {
+      "name": "nomnoml",
+      "hooks":{
+        "eejsBlock_mySettings": "ep_nomnoml/index",
+        "eejsBlock_scripts": "ep_nomnoml/index",
+        "eejsBlock_styles":"ep_nomnoml/index",
+        "eejsBlock_body":"ep_nomnoml/index"
+      },
+      "client_hooks": {
+        "postAceInit": "ep_nomnoml/static/js/main",
+        "aceEditEvent": "ep_nomnoml/static/js/main"
+      }
+    }
+  ]
+}

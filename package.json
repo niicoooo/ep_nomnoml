@@ -1,0 +1,14 @@
+{
+  "name": "ep_nomnoml",
+  "description": "Render nomnoml in Etherpad",
+  "version": "0.1.0",
+  "author": {
+    "name": "niicoooo",
+    "email": "1niicoooo1@gmail.com"
+  },
+  "license": "Apache",
+  "homepage": "https://github.com/niicoooo/ep_nomnoml",
+  "dependencies": {
+    "nomnoml": "^0.6.2"
+  }
+}

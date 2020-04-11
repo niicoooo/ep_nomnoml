@@ -1,0 +1,19 @@
+#nomnoml-canvas {
+}
+
+#nomnoml {
+  display: none;
+  z-index: 99999;
+  
+  position: fixed;
+  bottom: 0px;
+  right: 25px;
+/*  width: 500px; */
+/*  height: 500px; */
+
+  overflow: auto;
+  
+  background-color: #f7f7f780;
+  border-width: 1px;
+  border-color: black;
+}
